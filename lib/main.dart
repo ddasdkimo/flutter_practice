@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_practice/page/container_test.dart';
+import 'package:flutter_practice/page/row_test.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
         
         primarySwatch: Colors.blue,
       ),
-      home: ContainerTest(),
+      // home: ContainerTest(),
+      home: RowTest(),
     );
   }
 }
