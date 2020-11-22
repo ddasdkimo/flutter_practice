@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_practice/page/center_test.dart';
 import 'package:flutter_practice/page/container_test.dart';
 import 'package:flutter_practice/page/row_test.dart';
 
@@ -13,11 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'flutter practice',
       theme: ThemeData(
-        
         primarySwatch: Colors.blue,
       ),
       // home: ContainerTest(),
-      home: RowTest(),
+      // home: RowTest(),
+      home: CenterTest(),
     );
   }
 }
