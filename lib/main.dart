@@ -5,6 +5,7 @@ import 'package:flutter_practice/page/column_test.dart';
 import 'package:flutter_practice/page/container_test.dart';
 import 'package:flutter_practice/page/padding_test.dart';
 import 'package:flutter_practice/page/row_test.dart';
+import 'package:flutter_practice/page/sizedbox_test.dart';
 
 void main() {
   runApp(MyApp());
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
       // home: CenterTest(),
       // home: ColumnTest(),
       // home: AlignTest(),
-      home: PaddingTest(),
+      // home: PaddingTest(),
+      home: SizedboxTest(),
     );
   }
 }
