@@ -3,6 +3,7 @@ import 'package:flutter_practice/page/align_test.dart';
 import 'package:flutter_practice/page/center_test.dart';
 import 'package:flutter_practice/page/column_test.dart';
 import 'package:flutter_practice/page/container_test.dart';
+import 'package:flutter_practice/page/padding_test.dart';
 import 'package:flutter_practice/page/row_test.dart';
 
 void main() {
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
       // home: RowTest(),
       // home: CenterTest(),
       // home: ColumnTest(),
-      home: AlignTest(),
+      // home: AlignTest(),
+      home: PaddingTest(),
     );
   }
 }
