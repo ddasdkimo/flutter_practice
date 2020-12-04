@@ -8,6 +8,7 @@ import 'package:flutter_practice/page/flexible_test.dart';
 import 'package:flutter_practice/page/padding_test.dart';
 import 'package:flutter_practice/page/row_test.dart';
 import 'package:flutter_practice/page/sizedbox_test.dart';
+import 'package:flutter_practice/page/stack_test.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,7 +31,8 @@ class MyApp extends StatelessWidget {
       // home: PaddingTest(),
       // home: SizedboxTest(),
       // home: ExpandedTest(),
-      home: FlexibleTest(),
+      // home: FlexibleTest(),
+      home: StackTest(),
     );
   }
 }
