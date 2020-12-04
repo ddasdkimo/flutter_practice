@@ -4,6 +4,7 @@ import 'package:flutter_practice/page/center_test.dart';
 import 'package:flutter_practice/page/column_test.dart';
 import 'package:flutter_practice/page/container_test.dart';
 import 'package:flutter_practice/page/expanded_test.dart';
+import 'package:flutter_practice/page/flexible_test.dart';
 import 'package:flutter_practice/page/padding_test.dart';
 import 'package:flutter_practice/page/row_test.dart';
 import 'package:flutter_practice/page/sizedbox_test.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
       // home: AlignTest(),
       // home: PaddingTest(),
       // home: SizedboxTest(),
-      home: ExpandedTest(),
+      // home: ExpandedTest(),
+      home: FlexibleTest(),
     );
   }
 }
