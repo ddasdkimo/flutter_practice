@@ -22,7 +22,6 @@ class ListViewTest extends StatelessWidget {
     List<int> colorCodes = <int>[600, 500, 100];
     return ListView.builder(
         itemCount: names.length,
-        
         itemBuilder: (BuildContext context, int position) {
           var name = names[position];
           return Column(
@@ -30,12 +29,21 @@ class ListViewTest extends StatelessWidget {
               Container(
                 height: 100,
                 color: Colors.amber[colorCodes[position % colorCodes.length]],
-                child: Center(
-                  child: Text(
-                    name,
-                    style: TextStyle(
-                        color: Colors.black, decoration: TextDecoration.none),
-                  ),
+                child: Row(
+                  children: [
+                    Container(
+                        height: 80,
+                        width: 80,
+                        child: Card(
+                          color: Colors.red,
+                        )),
+                    Text(
+                      name,
+                      style: TextStyle(
+                          color: Colors.black,
+                          decoration: TextDecoration.none),
+                    ),
+                  ],
                 ),
               ),
               Divider()
