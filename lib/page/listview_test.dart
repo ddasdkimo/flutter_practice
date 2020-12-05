@@ -22,18 +22,24 @@ class ListViewTest extends StatelessWidget {
     List<int> colorCodes = <int>[600, 500, 100];
     return ListView.builder(
         itemCount: names.length,
+        
         itemBuilder: (BuildContext context, int position) {
           var name = names[position];
-          return Container(
-            height: 100,
-            color: Colors.amber[colorCodes[position % colorCodes.length]],
-            child: Center(
-              child: Text(
-                name,
-                style: TextStyle(
-                    color: Colors.black, decoration: TextDecoration.none),
+          return Column(
+            children: [
+              Container(
+                height: 100,
+                color: Colors.amber[colorCodes[position % colorCodes.length]],
+                child: Center(
+                  child: Text(
+                    name,
+                    style: TextStyle(
+                        color: Colors.black, decoration: TextDecoration.none),
+                  ),
+                ),
               ),
-            ),
+              Divider()
+            ],
           );
         });
   }
