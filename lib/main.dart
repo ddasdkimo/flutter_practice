@@ -10,6 +10,7 @@ import 'package:flutter_practice/page/padding_test.dart';
 import 'package:flutter_practice/page/row_test.dart';
 import 'package:flutter_practice/page/sizedbox_test.dart';
 import 'package:flutter_practice/page/stack_test.dart';
+import 'package:flutter_practice/page/video_player_test.dart';
 
 void main() {
   runApp(MyApp());
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
       // home: ExpandedTest(),
       // home: FlexibleTest(),
       // home: StackTest(),
-      home: ListViewTest(),
+      // home: ListViewTest(),
+      home: VideoPlayerTest(),
     );
   }
 }

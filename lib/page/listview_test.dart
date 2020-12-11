@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -36,12 +38,15 @@ class ListViewTest extends StatelessWidget {
                         width: 80,
                         child: Card(
                           color: Colors.red,
+                          child: Image.asset(
+                            "image/"+name+".jpg",
+                            fit: BoxFit.cover,
+                          ),
                         )),
                     Text(
                       name,
                       style: TextStyle(
-                          color: Colors.black,
-                          decoration: TextDecoration.none),
+                          color: Colors.black, decoration: TextDecoration.none),
                     ),
                   ],
                 ),
